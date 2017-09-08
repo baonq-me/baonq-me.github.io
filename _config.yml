@@ -1,5 +1,5 @@
 # General Jekyll Config
 highlighter: pygments
-url: http://example.com
+url: https://blog.baonq.me
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
