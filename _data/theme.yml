@@ -5,26 +5,26 @@ highlight_color: '#3498db'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
-  github: swanson
+  github: baonq-me
   #bitbucket: philipj
-  hacker_news: swanson
+  #hacker_news: swanson
   #stackexchange: 348619
   #stackoverflow: 348619
-  twitter: _swanson
-  #facebook: zuck
+  #twitter: _swanson
+  facebook: quocbao.nqb
   #tumblr: animalygifs
-  #linkedin: philipjagielski
+  linkedin: quocbao747
   #gplus: 110552447039675960964
   #gravatar: 86e6ff8f75f9daef42d53b7f8002fd95
-  #flickr: johndoe
+  flickr: quocbao747
 
 # "Hi, I'm _______"
-name: Matt Swanson
-email: test@example.com
+name: Quoc-Bao Nguyen
+email: hello@baonq.me
 tagline: "weak opinions, strongly held"
 
 # Google Analytics key, leave blank to ignore
-google_analytics_key: UA-xxxx-x
+#google_analytics_key: UA-xxxx-x
 
 # Toggle "Postings are my own" disclaimer in footer
 show_disclaimer: true
