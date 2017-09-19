@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sample post
+title: ZFS Filesystem
 tags: [code, jekyll]
 categories:
 - blog
