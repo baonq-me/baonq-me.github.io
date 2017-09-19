@@ -183,9 +183,9 @@ config:
 errors: No known data errors
 ```
 
-This will add a spare drive to be used as a hot spare in event that one of the drives in the zpool fails. It mean that when an active drive in your pool fails, spare drive will automaatically active to replace that failed drive.
+This will add a spare drive to be used as a hot spare in event that one of the drives in the zpool fails. It mean that when an active drive in your pool fails, spare drive will automatically be activated to replace that failed drive.
 
-Spare drive will not work when pool is ran under RAID0 because of its none tolerance.
+Spare drive will not work when pool is ran under RAID0 because of its none tolerance, just lose a single drive then you lose the whole pool. 
 
 ## Adding additional drive to existing pools
 
