@@ -16,7 +16,13 @@ chia, **wayfarers** swag raw denim hashtag biodiesel occupy gastropub!
 
 ---
 
-# It's all in the game.
+# Create zpool
+
+## RAID0 (stripe)
+
+```{r, engine='bash', 1}
+wc -l en_US.twitter.txt 
+```
 
 ## You come at the king, you best not miss.
 
