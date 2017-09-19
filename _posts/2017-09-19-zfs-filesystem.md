@@ -94,7 +94,7 @@ Command:
 
 ## List pools
 
-```
+```bash
 root@ubuntu:~# zpool list
 NAME    SIZE  ALLOC   FREE  EXPANDSZ   FRAG    CAP  DEDUP  HEALTH  ALTROOT
 rpool  31.8G  2.85G  28.9G         -     7%     8%  1.00x  ONLINE  -
@@ -102,7 +102,7 @@ rpool  31.8G  2.85G  28.9G         -     7%     8%  1.00x  ONLINE  -
 
 ## View basic dataset information
 
-```
+```bash
 root@ubuntu:~# zfs list
 NAME                           USED  AVAIL  REFER  MOUNTPOINT
 rpool                         3.26G  27.5G   192K  /rpool
@@ -116,7 +116,7 @@ rpool/swap                     953M  27.9G   532M  -
 
 ## View health and status of pools
 
-```
+```bash
 root@ubuntu:~# zpool status
   pool: rpool
  state: ONLINE
@@ -135,7 +135,7 @@ errors: No known data errors
 
 ## View I/O statistics of pools
 
-```
+```bash
 root@pve:~# zpool iostat
                capacity     operations    bandwidth
 pool        alloc   free   read  write   read  write
@@ -164,7 +164,7 @@ rpool       2.85G  28.9G      1     36  72.9K   146K
 
 Recheck
 
-```
+```bash
 root@pve:~# zpool status -v
   pool: rpool
  state: ONLINE
@@ -193,7 +193,7 @@ Adding additional storage to a RAID1, RAID5 or RAID6 pool must be done in like R
 
 In this example, my pool is running RAID0 with 4 drives then I can add more drives as many as I want.
 
-```
+```bash
 root@pve:~# zpool add -f rpool /dev/sde
 root@pve:~# zpool status -v
   pool: rpool
