@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Note] ZFS Filesystem
+title: "[Note] ZFS Filesystem"
 tags: [note, linux, storage]
 categories:
 - blog
