@@ -6,12 +6,6 @@ categories:
 - blog
 ---
 
-ZFS is a combined file system and logical volume manager designed by Sun Microsystems. The features of ZFS include protection against data corruption, support for high storage capacities, efficient data compression, integration of the concepts of filesystem and volume management, snapshots and copy-on-write clones, continuous integrity checking and automatic repair, RAID-Z and native NFSv4 ACLs.
-
-The ZFS name is registered as a trademark of Oracle Corporation; although it was briefly given the retrofitted expanded name "Zettabyte File System", it is no longer considered an initialism. Originally, ZFS was proprietary, closed-source software developed internally by Sun as part of Solaris, with a team led by the CTO of Sun's storage business unit and Sun Fellow, Jeff Bonwick. In 2005, the bulk of Solaris, including ZFS, was licensed as open-source software under the Common Development and Distribution License (CDDL), as the OpenSolaris project. ZFS became a standard feature of Solaris 10 in June 2006.
-
----
-
 # Create pool
 
 ## RAID0 (Block-level striping without parity or mirroring)
@@ -223,7 +217,7 @@ By deleting the pool `mypool`, you will also destroy all data that is stored ins
 `zpool destroy mypool`
 
 
-# Removing a pool
+#  a pool
 
 Removing a pool is very similar to unmounting a drive from a mountpoint.
 
